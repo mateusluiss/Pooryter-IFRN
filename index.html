@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- Importações de CSS -->
+    <!-- Importação do Material Symbols - Conjunto de Ícones do Google -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    
+    <!-- Importação do CSS local, que está dentro da pasta "css" -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Importação de Javascript -->
+    <!-- Importação do conjunto de Ícones do Font Awesome -->
     <script src="https://kit.fontawesome.com/6c2e9979a8.js"></script>
     
     <title>Pooryter X</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">
+    <nav class="d-flex">
+        <a href="index.html"><!-- Logomarca -->
             <span class="fa-brands fa-x-twitter"></span>
         </a>
-        <div>
+        <div class="d-flex"><!-- Links das redes sociais e login-->
             <a href="">
                 <span class="fa-brands fa-youtube"></span>
                 YouTube
@@ -30,20 +35,20 @@
             </a>
         </div>
     </nav>
-    <header>
+    <header><!-- Cabeçalho -->
         <h1>Pooryter X</h1>
     </header>
-    <main>
+    <main><!-- Parte principal -->
         <h2>O que aconteceu hoje?</h2>
         <form action="">
             <label for="msg">Mensagem</label>
-            <textarea id="msg"></textarea>
+            <textarea id="msg" autofocus></textarea>
             <input type="button" value="Postar" id="btnPostar">
         </form>
     </main>
-    <section>
+    <section><!-- Sessão de postagens-->
         <h2>Postagens</h2>
-        <article>
+        <article><!-- Cada postagem será um <article>, esse é um exemplo -->
             <h3>Data e Hora</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus tempora iste eveniet vitae nostrum eos unde, numquam veniam consequuntur voluptates itaque dolores, ex tempore nisi? Ipsam, quo maxime. Beatae.</p>
         </article>
