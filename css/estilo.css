@@ -113,6 +113,11 @@ section{
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
+article{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: var(--borda-suave);
+}
 /* DEFINIÇÕES DE CLASSES **************************************/
 .material-symbols-outlined{
     font-size: 1rem; /*Sobrescreve o tamanho padrão dos ícones do Material Symbols*/
