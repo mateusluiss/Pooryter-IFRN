@@ -105,7 +105,9 @@ form input[type="button"]{
 }
 form input[type="button"]:hover{
     background-color: #4c8ee0;
+    cursor: pointer;
 }
+
 /* CONFIGURAÇÕES DA SESSÃO DE POSTAGENS ***********************/
 section{
     padding: 1rem;

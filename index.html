@@ -13,6 +13,8 @@
     <!-- Importação do conjunto de Ícones do Font Awesome -->
     <script src="https://kit.fontawesome.com/6c2e9979a8.js"></script>
     
+    <script src="js/posts.js" defer></script>
+
     <title>Pooryter X</title>
 </head>
 <body>
@@ -43,10 +45,10 @@
         <form action="">
             <label for="msg">Mensagem</label>
             <textarea id="msg" autofocus></textarea>
-            <input type="button" value="Postar" id="btnPostar">
+            <input type="button" value="Postar" id="btnPostar" onclick="postar()">
         </form>
     </main>
-    <section><!-- Sessão de postagens-->
+    <section id="postagens"><!-- Sessão de postagens-->
         <h2>Postagens</h2>
         <article><!-- Cada postagem será um <article>, esse é um exemplo -->
             <h3>Data e Hora</h3>
