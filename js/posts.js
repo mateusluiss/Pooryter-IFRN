@@ -7,6 +7,7 @@ function postar(){
 
     title.innerText = new Date();
     text.innerText = msg.value;
+    msg.value = "";
 
     post.appendChild(title);
     post.appendChild(text);
