@@ -16,19 +16,6 @@ function postar(){
     post.appendChild(title);
     post.appendChild(text);
 
-    /**
-     * Define o título da postagem
-     * - Uma vez que não temos banco de dados para recuperar o nome de usuário logado
-     */ 
-    title.innerText = new Date(); // new Date() retorna a data e hora atual
-    // Atribui o conteúdo da textarea#msg para a tag <p> que criamos
-    text.innerText = msg.value;
-    msg.value = ""; // Apaga o conteúdo do textarea#msg
 
-    // Aninha os elementos <h3> e <p> à tag <article>
-    post.appendChild(title);
-    post.appendChild(text);
-
-    // Aninha o <article> que criamos à section#postagens
     postagens.appendChild(post);
 }
